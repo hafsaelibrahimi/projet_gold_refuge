@@ -27,10 +27,16 @@ Nous nous sommes appuyées principalement sur le modèle ARMA-GARCH traditionnel
 Il suffit d'exécuter successivement les cellules du notebook "main.ipynb". 
 
 # Bibliothèques à installer
+
+```python
      !pip install yfinance
      !pip install arch
 
+```
+
 # Bibliothèques utilisées
+
+```python
      import requests
      import pandas as pd
      import os
@@ -42,6 +48,7 @@ Il suffit d'exécuter successivement les cellules du notebook "main.ipynb".
      from scipy.optimize import minimize
      from statsmodels.api import OLS, add_constant
      
+```
 # Conseils d'utilisation 
 L'utilisation de l'API est limitée à 25 requêtes par jour. Il est donc conseillé d'exécuter la cellule important les données issues de l'API le moins possible.
 
